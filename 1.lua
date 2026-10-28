@@ -7354,9 +7354,3 @@ if not ok then
     if _G.LunarFeatures and _G.LunarFeatures.Error then _G.LunarFeatures.Error("Startup",startError) end
 end
 return originalExport
-
-
-
-pcall(function()
-  FeedbackSystem.Install()
-end)
